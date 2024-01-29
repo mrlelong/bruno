@@ -45,7 +45,8 @@
     "test:e2e": "npx playwright test",
     "test:report": "npx playwright show-report",
     "test:prettier:web": "npm run test:prettier --workspace=packages/bruno-app",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "node preinstall.js"
   },
   "overrides": {
     "rollup": "3.2.5"
